@@ -10,4 +10,5 @@ cp -r ~/work/commonsos-web/dist/* www/
 
 echo "Distributing web resources to supported platforms"
 
-cordova prepare
+cordova prepare $1
+cordova build $1
