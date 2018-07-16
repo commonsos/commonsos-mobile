@@ -30,6 +30,9 @@
         <config-file parent="UIViewControllerBasedStatusBarAppearance" target="*-Info.plist">
             <false />
         </config-file>
+        <config-file overwrite="true" parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist">
+            <string>Allow the app to use your camera</string>
+        </config-file>
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <icon height="180" src="res/icon/ios/app-icon@180x180.png" width="180" />
